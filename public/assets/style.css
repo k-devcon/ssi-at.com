@@ -1357,3 +1357,13 @@ a {
   width: auto;
   z-index: 100000;
 }
+
+.d-none {
+  display: none !important;
+}
+
+@media (min-width: 768px) {
+  .d-md-inline {
+    display: inline !important;
+  }
+}
